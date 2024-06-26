@@ -3,6 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
 }
 
 .container {
@@ -12,11 +14,11 @@ body {
 }
 
 header {
-    background: #333;
+    background: #404044;
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #77aaff 3px solid;
+    border-bottom: #9a8c98 3px solid;
 }
 
 header a {
@@ -46,37 +48,40 @@ header nav {
 }
 
 header .highlight, header .current a {
-    color: #77aaff;
+    color: #f2e9e4;
     font-weight: bold;
 }
 
 header a:hover {
-    color: #cccccc;
+    color: #c9ada7;
 }
 
 section {
     padding: 20px 0;
-    border-bottom: 1px solid #e4e4e4;
+    border-bottom: 1px solid #ccc;
 }
 
 section .container {
-    text-align: center;
+    text-align: left;
 }
 
 section#about {
-    background: #f4f4f4;
+    background: #f2e9e4;
+    color: #404044;
 }
 
 section#projects {
     background: #fff;
+    color: #404044;
 }
 
 section#contact {
-    background: #f4f4f4;
+    background: #f2e9e4;
+    color: #404044;
 }
 
 footer {
-    background: #333;
+    background: #404044;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -89,8 +94,10 @@ footer {
 
 .project h3 {
     margin: 0;
+    color: #404044;
 }
 
 .project p {
     margin: 5px 0 0 0;
+    color: #333;
 }
