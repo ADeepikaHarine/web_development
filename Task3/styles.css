@@ -1,0 +1,118 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.showcase {
+    position: relative;
+    height: 100vh;
+    background: url('/Users/a.deepikaharine/Downloads/nbg.jpg') no-repeat center center/cover;
+}
+
+.showcase .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.showcase .logo {
+    width: 150px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.language-select {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.showcase .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #e50914;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.showcase .showcase-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.showcase .showcase-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.showcase .showcase-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.showcase .btn-xl {
+    font-size: 24px;
+    padding: 15px 30px;
+}
+
+.features {
+    padding: 50px 20px;
+    background: #000;
+    text-align: center;
+}
+
+.features .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.features .feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.features .feature img {
+    max-width: 50%;
+    height: auto;
+}
+
+.features .feature-text {
+    max-width: 50%;
+}
+
+.features .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    font-size: 18px;
+}
